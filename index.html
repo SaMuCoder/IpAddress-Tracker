@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            <div class="title">
+               <h1>IP Address Tracker</h1> 
+            </div>
+            <div class="search-bar">
+                <input type="text" id="input-ip" placeholder="Search for any IP address or domain">
+                <button type="submit" id="button-ip"  onclick="() => searchIp()"><img src="images/icon-arrow.svg" alt="Button for submit"></button>
+            </div>
+
+            <div class="flex">
+                <div class="result">
+                    <p id="final">Ip Address</p>
+                </div>
+            </div>
+        </header>
+        <script src="key.js" type="module"></script>
+        <script src="main.js" type="module"></script>
+    </body>
+</html>
